@@ -27,7 +27,7 @@ import  handleGenerateAudio2  from "./../utils/audioUtils2";
 const Home = () => {
   let navigate = useNavigate();
   const [home, sethome] = useState(null);
-  const [language, setlanguage] = useState("hindi");
+  const [language, setlanguage] = useState("Tamil");
   const [details, setdetails] = useState([]);
   const [songlink, setsonglink] = useState([]);
   const [songlink2, setsonglink2] = useState([]);
