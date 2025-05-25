@@ -96,11 +96,11 @@ const Home = () => {
       // );
       const { data } = await axios.get(
         `https://jiosavan-api-with-playlist.vercel.app/api/search/songs?query=${language}&page=${
-          language === "english" ? page : page2
+          language === "Tamil" ? page : page2
         }&limit=20`
         // `https://saavn.dev/api/search/songs?query=${language}&page=${page2}&limit=20`
         // `https://jiosaavan-harsh-patel.vercel.app/search/songs?query=${language}&page=${
-        //   language === "tamil" || "malayalam" ? page2 : page
+        //   language === "Tamil" || "Malayalam" ? page2 : page
         // }&limit=10`
         // `https://jiosaavan-harsh-patel.vercel.app/search/songs?query=${language}&page=${page2}&limit=10`
       );
@@ -750,7 +750,7 @@ const Home = () => {
         <div className="flex   items-center sm:justify-center sm:pt-2 gap-3">
           <img className="w-[5vw] sm:w-[10vw] rounded-full" src={logo} alt="" />
           <h1 className="text-2xl text-slate-900 p-2 rounded-full bg-neutral-500 sm:text-xl  font-black">
-            THE ULTIMATE SONGS
+            Dreamly5 Music
           </h1>
         </div>
         <motion.div
