@@ -27,7 +27,7 @@ import  handleGenerateAudio2  from "./../utils/audioUtils2";
 const Home = () => {
   let navigate = useNavigate();
   const [home, sethome] = useState(null);
-  const [language, setlanguage] = useState("Tamil");
+  const [language, setlanguage] = useState("tamil");
   const [details, setdetails] = useState([]);
   const [songlink, setsonglink] = useState([]);
   const [songlink2, setsonglink2] = useState([]);
@@ -43,32 +43,32 @@ const Home = () => {
   const [suggSong, setsuggSong] = useState([]);
 
   const options = [
-    // "Tamil",
-    // "Malayalam",
-    // "Hindi",
-    // "English",
-    // "Telugu",
-    // "Marathi",
-    // "Gujarati",
-    // "Bengali",
-    // "Kannada",
-    // "Bhojpuri"
-    // "Urdu",
-    // "Haryanvi",
-    // "Rajasthani",
-    // "Punjabi",
-    // "Odia",
-    // "Assamese",
+    // "tamil",
+    // "malayalam",
+    // "hindi",
+    // "english",
+    // "telugu",
+    // "marathi",
+    // "gujarati",
+    // "bengali",
+    // "kannada",
+    // "bhojpuri"
+    // "urdu",
+    // "haryanvi",
+    // "rajasthani",
+    // "punjabi",
+    // "odia",
+    // "assamese",
 
-    "Tamil",
-    "Malayalam",
-    "Hindi",
-    "English",
-    "Telugu",
-    // "Marathi",
-    // "Gujarati",
-    // "Bengali",
-    "Kannada",
+    "tamil",
+    "malayalam",
+    "hindi",
+    "english",
+    "telugu",
+    // "marathi",
+    // "gujarati",
+    // "bengali",
+    "kannada",
     // "Bhojpuri",
     // "Urdu",
     // "Haryanvi",
